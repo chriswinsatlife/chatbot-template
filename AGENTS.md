@@ -6,4 +6,4 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 # Git
 
-Never push this repository. Do not run git push, force-push, or any equivalent that sends this repository to a remote. Local commits are allowed.
+Never push to `upstream` (the original shadcn-ui/chatbot-template). Push only to `origin` (this project's own GitHub copy). Local commits are allowed. Pull shadcn updates with `git fetch upstream` and merge them into `main`.
