@@ -1,5 +1,6 @@
 // See https://vercel.com/ai-gateway/models.
 export const MODELS = [
+  { id: "minimax/minimax-m3-free", name: "MiniMax M3 (Free)" },
   { id: "anthropic/claude-sonnet-5", name: "Claude Sonnet 5" },
   { id: "openai/gpt-5.6-terra", name: "GPT 5.6 Terra" },
 ]
